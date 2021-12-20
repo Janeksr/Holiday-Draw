@@ -8,22 +8,12 @@ const answers = [
 	'Bieszczady, najpiękniejsze jesienią 🍂 🍁',
 	'Góy Sowie? Na weekndowy spacerek 🦉',
 	'Mało kto o nich słyszał, góry Izerskie 🤫',
-	'Piękne skaliste zbocza? A więc Karkonosze ',
-	// 'To musi poczekać',
-	// 'Mam pewne wątpliwości',
+	'Piękne skaliste zbocza? A więc Karkonosze ⛰',
+	'Jedyne w polsce góry płytowe - Góry Stołowe ',
+	'Beskid Śląski? Warto zimą na narty ⛷',
 	// 'Możesz na to liczyć',
-	// 'Zbyt wcześnie aby powiedzieć',
-	// 'Daj spokój',
-	// 'Absolutnie',
-	// 'Chyba żartujesz?',
-	// 'Na pewno nie',
-	// 'Zrób to',
-	// 'Prawdopodobnie',
-	// 'Dla mnie rewelacja',
-	// 'Na pewno tak',
 ];
-
-let answersLength = answers.length;
+const answersLength = answers.length;
 let countAnswers = 0;
 
 const random = () => {

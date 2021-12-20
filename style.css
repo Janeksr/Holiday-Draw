@@ -32,19 +32,6 @@ body {
 	font-size: 40px;
 }
 
-/* .mountain-img {
-	position: relative;
-	height: 250px;
-}
-
-.mountain-img img {
-	position: absolute;
-	top: 30px;
-	left: 300px;
-	width: 300px;
-	cursor: pointer;
-} */
-
 .mountain-img {
 	position: relative;
 	height: 250px;
@@ -64,6 +51,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding: 0 10px;
+	text-align: center;
 	font-size: 24px;
 }
 
