@@ -24,17 +24,18 @@ body {
 
 .info {
 	text-align: center;
-	font-size: 25px;
+	font-size: 15px;
+	padding: 0 10px;
 }
 
 .info h1 {
 	margin-bottom: 10px;
-	font-size: 40px;
+	font-size: 22px;
 }
 
 .mountain-img {
 	position: relative;
-	height: 250px;
+	height: 200px;
 }
 
 .mountain-img img {
@@ -42,7 +43,7 @@ body {
 	top: 30px;
 	left: 50%;
 	transform: translateX(-50%);
-	height: 200px;
+	height: 150px;
 	cursor: pointer;
 }
 
@@ -53,21 +54,7 @@ body {
 	flex-direction: column;
 	padding: 0 10px;
 	text-align: center;
-	font-size: 24px;
-}
-
-.question-area h2 {
-	margin-bottom: 10px;
-	font-size: 36px;
-	text-transform: uppercase;
-}
-
-.question-area input {
-	padding: 10px 20px;
-	width: 80%;
 	font-size: 20px;
-	border: 2px solid #333;
-	border-radius: 8px;
 }
 
 .question-area .answer {
@@ -76,11 +63,6 @@ body {
 
 .question-area .answer span {
 	font-weight: bold;
-}
-
-.question-area .error {
-	font-weight: bold;
-	color: #3add8c;
 }
 
 .shake-animation {
@@ -107,5 +89,47 @@ body {
 	}
 	100% {
 		transform: translateX(-50%);
+	}
+}
+
+@media (min-width: 768px) {
+	.info {
+		font-size: 21px;
+	}
+
+	.info h1 {
+		font-size: 28px;
+	}
+	.question-area {
+		font-size: 26px;
+	}
+
+	.mountain-img {
+		height: 230px;
+	}
+
+	.mountain-img img {
+		height: 180px;
+	}
+}
+
+@media (min-width: 992px) {
+	.info {
+		font-size: 27px;
+	}
+
+	.info h1 {
+		font-size: 34px;
+	}
+	.question-area {
+		font-size: 28px;
+	}
+
+	.mountain-img {
+		height: 250px;
+	}
+
+	.mountain-img img {
+		height: 200px;
 	}
 }

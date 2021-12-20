@@ -1,13 +1,13 @@
 const bill = document.querySelector('img');
 const aswerArea = document.querySelector('.answer');
 const answers = [
-	'Więc klasycznie, piękne, spiczaste Tatry 🧗🏼',
+	'Więc klasycznie - piękne, spiczaste Tatry 🧗🏼',
 	'Pszeniczne, IPA, może APA? 🍺 Beskid Żywiecki!',
 	'Gorce - spokojne miejsce bez turystów 😌',
 	'Pamiętaj, żeby w Pieninach zrobić kółko wokół jeziora Czorsztyńskiego 🚵🏼',
-	'Bieszczady, najpiękniejsze jesienią 🍂 🍁',
-	'Góy Sowie? Na weekndowy spacerek 🦉',
-	'Mało kto o nich słyszał, góry Izerskie 🤫',
+	'Bieszczady, najpiękniejsza jesień 🍂 🍁',
+	'Góry Sowie? Na weekendowy spacerek 🦉',
+	'Mało kto o nich słyszał - góry Izerskie 🤫',
 	'Piękne skaliste zbocza? A więc Karkonosze ⛰',
 	'Jedyne w polsce góry płytowe - Góry Stołowe ',
 	'Beskid Śląski? Warto zimą na narty ⛷',
